@@ -1,0 +1,631 @@
+{
+  "version": "V5",
+  "checked_date": "2026-10-11",
+  "available_page_urls": 68,
+  "distinct_native_source_pages": 66,
+  "downloaded_resource_urls": 369,
+  "unavailable_assets": [
+    {
+      "source": "https://www.positron.dp.ua/img/About_us/requisites/slider_2.jpg",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "source_link_errors": {
+    "https://www.positron.dp.ua/SURB.html": "HTTP Error 404: Not Found",
+    "https://www.positron.dp.ua/eng/contacts_ua.html": "HTTP Error 404: Not Found",
+    "https://www.positron.dp.ua/news_rzba_1602.html": "HTTP Error 404: Not Found",
+    "https://www.positron.dp.ua/robots.txt": "HTTP Error 404: Not Found",
+    "https://www.positron.dp.ua/sitemap.xml": "HTTP Error 404: Not Found"
+  },
+  "coverage": [
+    {
+      "source": "https://www.positron.dp.ua/ru-home.html",
+      "target": "index.html#old-home",
+      "destination": "company",
+      "text_nodes_checked": 15,
+      "tables": 0,
+      "images": 23,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/products.html",
+      "target": "index.html#old-products",
+      "destination": "catalog",
+      "text_nodes_checked": 16,
+      "tables": 0,
+      "images": 10,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/history.html",
+      "target": "index.html#old-history",
+      "destination": "history",
+      "text_nodes_checked": 22,
+      "tables": 0,
+      "images": 4,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/quality-management.html",
+      "target": "index.html#old-quality",
+      "destination": "company",
+      "text_nodes_checked": 20,
+      "tables": 0,
+      "images": 4,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/exhibitions.html",
+      "target": "index.html#old-exhibitions",
+      "destination": "company",
+      "text_nodes_checked": 4,
+      "tables": 0,
+      "images": 19,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/management.html",
+      "target": "index.html#old-management",
+      "destination": "company",
+      "text_nodes_checked": 31,
+      "tables": 0,
+      "images": 25,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/requisites.html",
+      "target": "index.html#old-requisites",
+      "destination": "contact",
+      "text_nodes_checked": 30,
+      "tables": 0,
+      "images": 1,
+      "maps": 1
+    },
+    {
+      "source": "https://www.positron.dp.ua/contacts.html",
+      "target": "index.html#old-contacts",
+      "destination": "contact",
+      "text_nodes_checked": 7,
+      "tables": 0,
+      "images": 1,
+      "maps": 1
+    },
+    {
+      "source": "https://www.positron.dp.ua/catalogs-and-presentations.html",
+      "target": "index.html#old-documents",
+      "destination": "documents",
+      "text_nodes_checked": 9,
+      "tables": 0,
+      "images": 6,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/news.html",
+      "target": "index.html#old-news",
+      "destination": "documents",
+      "text_nodes_checked": 6,
+      "tables": 0,
+      "images": 1,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/news-rzba-1602.html",
+      "target": "index.html#old-news-rzba",
+      "destination": "documents",
+      "text_nodes_checked": 6,
+      "tables": 0,
+      "images": 1,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/news-quality.html",
+      "target": "index.html#old-news-quality",
+      "destination": "documents",
+      "text_nodes_checked": 6,
+      "tables": 0,
+      "images": 1,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/map.html",
+      "target": "index.html#old-map",
+      "destination": "documents",
+      "text_nodes_checked": 18,
+      "tables": 0,
+      "images": 2,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/rzba-04-04m.html",
+      "target": "index.html#old-rzba",
+      "destination": "catalog",
+      "text_nodes_checked": 138,
+      "tables": 1,
+      "images": 26,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/rug.html",
+      "target": "index.html#old-rug",
+      "destination": "catalog",
+      "text_nodes_checked": 37,
+      "tables": 2,
+      "images": 5,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/rks-02.html",
+      "target": "index.html#old-kordon",
+      "destination": "catalog",
+      "text_nodes_checked": 94,
+      "tables": 3,
+      "images": 9,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/mks.html",
+      "target": "index.html#old-mks",
+      "destination": "catalog",
+      "text_nodes_checked": 217,
+      "tables": 15,
+      "images": 5,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/bdmg.html",
+      "target": "index.html#old-bdmg",
+      "destination": "catalog",
+      "text_nodes_checked": 46,
+      "tables": 3,
+      "images": 5,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/amp-12.html",
+      "target": "index.html#old-amp",
+      "destination": "catalog",
+      "text_nodes_checked": 53,
+      "tables": 1,
+      "images": 5,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/pump-unit.html",
+      "target": "index.html#old-bn",
+      "destination": "catalog",
+      "text_nodes_checked": 64,
+      "tables": 3,
+      "images": 6,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/surb.html",
+      "target": "index.html#old-surb",
+      "destination": "catalog",
+      "text_nodes_checked": 86,
+      "tables": 3,
+      "images": 5,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/sgi.html",
+      "target": "index.html#old-sgi",
+      "destination": "catalog",
+      "text_nodes_checked": 22,
+      "tables": 0,
+      "images": 4,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/index.html",
+      "target": "ua.html#old-home",
+      "destination": "company",
+      "text_nodes_checked": 15,
+      "tables": 0,
+      "images": 23,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/ua/products_ua.html",
+      "target": "ua.html#old-products",
+      "destination": "catalog",
+      "text_nodes_checked": 17,
+      "tables": 0,
+      "images": 10,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/ua/history_ua.html",
+      "target": "ua.html#old-history",
+      "destination": "history",
+      "text_nodes_checked": 22,
+      "tables": 0,
+      "images": 4,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/ua/quality-management_ua.html",
+      "target": "ua.html#old-quality",
+      "destination": "company",
+      "text_nodes_checked": 20,
+      "tables": 0,
+      "images": 4,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/ua/exhibitions_ua.html",
+      "target": "ua.html#old-exhibitions",
+      "destination": "company",
+      "text_nodes_checked": 4,
+      "tables": 0,
+      "images": 19,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/ua/management_ua.html",
+      "target": "ua.html#old-management",
+      "destination": "company",
+      "text_nodes_checked": 31,
+      "tables": 0,
+      "images": 25,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/ua/requisites_ua.html",
+      "target": "ua.html#old-requisites",
+      "destination": "contact",
+      "text_nodes_checked": 30,
+      "tables": 0,
+      "images": 1,
+      "maps": 1
+    },
+    {
+      "source": "https://www.positron.dp.ua/ua/contacts_ua.html",
+      "target": "ua.html#old-contacts",
+      "destination": "contact",
+      "text_nodes_checked": 7,
+      "tables": 0,
+      "images": 1,
+      "maps": 1
+    },
+    {
+      "source": "https://www.positron.dp.ua/ua/catalogs-and-presentations_ua.html",
+      "target": "ua.html#old-documents",
+      "destination": "documents",
+      "text_nodes_checked": 6,
+      "tables": 0,
+      "images": 6,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/ua/news_ua.html",
+      "target": "ua.html#old-news",
+      "destination": "documents",
+      "text_nodes_checked": 6,
+      "tables": 0,
+      "images": 1,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/ua/news_rzba_1602_ua.html",
+      "target": "ua.html#old-news-rzba",
+      "destination": "documents",
+      "text_nodes_checked": 6,
+      "tables": 0,
+      "images": 1,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/ua/news-quality_ua.html",
+      "target": "ua.html#old-news-quality",
+      "destination": "documents",
+      "text_nodes_checked": 6,
+      "tables": 0,
+      "images": 1,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/ua/map_ua.html",
+      "target": "ua.html#old-map",
+      "destination": "documents",
+      "text_nodes_checked": 18,
+      "tables": 0,
+      "images": 2,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/ua/rzba-04-04m_ua.html",
+      "target": "ua.html#old-rzba",
+      "destination": "catalog",
+      "text_nodes_checked": 136,
+      "tables": 1,
+      "images": 26,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/ua/rug_ua.html",
+      "target": "ua.html#old-rug",
+      "destination": "catalog",
+      "text_nodes_checked": 39,
+      "tables": 2,
+      "images": 5,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/ua/rks-02_ua.html",
+      "target": "ua.html#old-kordon",
+      "destination": "catalog",
+      "text_nodes_checked": 94,
+      "tables": 3,
+      "images": 9,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/ua/mks_ua.html",
+      "target": "ua.html#old-mks",
+      "destination": "catalog",
+      "text_nodes_checked": 230,
+      "tables": 16,
+      "images": 5,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/ua/bdmg04_ua.html",
+      "target": "ua.html#old-bdmg",
+      "destination": "catalog",
+      "text_nodes_checked": 49,
+      "tables": 3,
+      "images": 5,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/ua/amp-12_ua.html",
+      "target": "ua.html#old-amp",
+      "destination": "catalog",
+      "text_nodes_checked": 54,
+      "tables": 1,
+      "images": 5,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/ua/pump_unit_ua.html",
+      "target": "ua.html#old-bn",
+      "destination": "catalog",
+      "text_nodes_checked": 67,
+      "tables": 3,
+      "images": 6,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/ua/surb_ua.html",
+      "target": "ua.html#old-surb",
+      "destination": "catalog",
+      "text_nodes_checked": 87,
+      "tables": 3,
+      "images": 5,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/ua/sgi_ua.html",
+      "target": "ua.html#old-sgi",
+      "destination": "catalog",
+      "text_nodes_checked": 22,
+      "tables": 0,
+      "images": 4,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/eng/eng-home.html",
+      "target": "en.html#old-home",
+      "destination": "company",
+      "text_nodes_checked": 14,
+      "tables": 0,
+      "images": 23,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/eng/products_eng.html",
+      "target": "en.html#old-products",
+      "destination": "catalog",
+      "text_nodes_checked": 15,
+      "tables": 0,
+      "images": 10,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/eng/history_eng.html",
+      "target": "en.html#old-history",
+      "destination": "history",
+      "text_nodes_checked": 22,
+      "tables": 0,
+      "images": 4,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/eng/quality-management_eng.html",
+      "target": "en.html#old-quality",
+      "destination": "company",
+      "text_nodes_checked": 20,
+      "tables": 0,
+      "images": 4,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/eng/exhibitions_eng.html",
+      "target": "en.html#old-exhibitions",
+      "destination": "company",
+      "text_nodes_checked": 4,
+      "tables": 0,
+      "images": 19,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/eng/management_eng.html",
+      "target": "en.html#old-management",
+      "destination": "company",
+      "text_nodes_checked": 30,
+      "tables": 0,
+      "images": 25,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/eng/requisites_eng.html",
+      "target": "en.html#old-requisites",
+      "destination": "contact",
+      "text_nodes_checked": 26,
+      "tables": 0,
+      "images": 1,
+      "maps": 1
+    },
+    {
+      "source": "https://www.positron.dp.ua/eng/contacts_eng.html",
+      "target": "en.html#old-contacts",
+      "destination": "contact",
+      "text_nodes_checked": 6,
+      "tables": 0,
+      "images": 1,
+      "maps": 1
+    },
+    {
+      "source": "https://www.positron.dp.ua/eng/catalogs-and-presentations_eng.html",
+      "target": "en.html#old-documents",
+      "destination": "documents",
+      "text_nodes_checked": 6,
+      "tables": 0,
+      "images": 6,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/eng/news_eng.html",
+      "target": "en.html#old-news",
+      "destination": "documents",
+      "text_nodes_checked": 6,
+      "tables": 0,
+      "images": 1,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/eng/news_rzba_1602_eng.html",
+      "target": "en.html#old-news-rzba",
+      "destination": "documents",
+      "text_nodes_checked": 6,
+      "tables": 0,
+      "images": 1,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/eng/news-quality_eng.html",
+      "target": "en.html#old-news-quality",
+      "destination": "documents",
+      "text_nodes_checked": 6,
+      "tables": 0,
+      "images": 1,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/eng/map_eng.html",
+      "target": "en.html#old-map",
+      "destination": "documents",
+      "text_nodes_checked": 17,
+      "tables": 0,
+      "images": 2,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/eng/rzba-04-04m_eng.html",
+      "target": "en.html#old-rzba",
+      "destination": "catalog",
+      "text_nodes_checked": 132,
+      "tables": 1,
+      "images": 25,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/eng/rug_eng.html",
+      "target": "en.html#old-rug",
+      "destination": "catalog",
+      "text_nodes_checked": 39,
+      "tables": 2,
+      "images": 5,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/eng/rks-02_eng.html",
+      "target": "en.html#old-kordon",
+      "destination": "catalog",
+      "text_nodes_checked": 92,
+      "tables": 3,
+      "images": 9,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/eng/mks_eng.html",
+      "target": "en.html#old-mks",
+      "destination": "catalog",
+      "text_nodes_checked": 238,
+      "tables": 16,
+      "images": 5,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/eng/bdmg04_eng.html",
+      "target": "en.html#old-bdmg",
+      "destination": "catalog",
+      "text_nodes_checked": 49,
+      "tables": 3,
+      "images": 5,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/eng/amp-12_eng.html",
+      "target": "en.html#old-amp",
+      "destination": "catalog",
+      "text_nodes_checked": 53,
+      "tables": 1,
+      "images": 5,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/eng/pump_unit_eng.html",
+      "target": "en.html#old-bn",
+      "destination": "catalog",
+      "text_nodes_checked": 65,
+      "tables": 3,
+      "images": 6,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/eng/surb_eng.html",
+      "target": "en.html#old-surb",
+      "destination": "catalog",
+      "text_nodes_checked": 84,
+      "tables": 3,
+      "images": 5,
+      "maps": 0
+    },
+    {
+      "source": "https://www.positron.dp.ua/eng/sgi_eng.html",
+      "target": "en.html#old-sgi",
+      "destination": "catalog",
+      "text_nodes_checked": 18,
+      "tables": 0,
+      "images": 4,
+      "maps": 0
+    }
+  ],
+  "gaps": [],
+  "fresh_page_hash_matches": 68,
+  "fresh_crawl_errors": {
+    "https://www.positron.dp.ua/eng/contacts_ua.html": "HTTP Error 404: Not Found",
+    "https://www.positron.dp.ua/SURB.html": "HTTP Error 404: Not Found",
+    "https://www.positron.dp.ua/news_rzba_1602.html": "HTTP Error 404: Not Found"
+  },
+  "approved_edits": [
+    "Позитрон ГМБХ spelling",
+    "Customer-approved history about Electron plant"
+  ],
+  "limits": [
+    "Only publicly reachable and previously identified pages were crawled; unlinked private server files are not discoverable.",
+    "Historical specifications and certificates retain their source dates."
+  ]
+}

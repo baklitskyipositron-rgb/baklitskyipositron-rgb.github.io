@@ -1,0 +1,49 @@
+/* V7: restore desktop-sized navigation controls on tablets, including with a trackpad. */
+@media(min-width:768px) and (max-width:1440px){
+ :root header>#nav,:root header>#nav.open{display:flex!important;position:relative;inset:auto;order:5;flex:0 0 100%;width:100%;box-sizing:border-box;max-height:none;overflow:visible;flex-direction:row;flex-wrap:wrap;align-items:stretch;justify-content:flex-start;gap:10px 12px;margin:0;padding:8px 0 0;border:0;border-top:1px solid var(--line);background:transparent}
+ :root header>.menu-toggle{display:none!important}
+ :root header>#nav>.nuclear-nav,:root header>#nav>.tender-nav{flex:0 1 260px!important;width:260px;max-width:260px;min-width:0;margin:0!important;box-sizing:border-box}
+ :root header>#nav>.nuclear-nav>summary{min-height:74px;height:100%;padding:8px 12px!important;font-size:15px!important;line-height:1.4!important;white-space:normal;overflow-wrap:anywhere}
+ :root header>#nav>.tender-nav{min-height:74px;height:100%;padding:10px 14px!important;font-size:16px!important;line-height:1.4!important;white-space:normal;overflow-wrap:anywhere}
+ :root header>#nav>a:not(.tender-nav){flex:0 0 auto;min-height:44px;display:block;padding:8px 0;font-size:16px;line-height:1.55;white-space:nowrap}
+ :root .nuclear-nav{position:relative}
+ :root .nuclear-dropdown{position:absolute;top:calc(100% + 6px);inset-inline-start:0;width:min(560px,84vw);max-width:84vw;margin:0;box-sizing:border-box;box-shadow:0 12px 28px #0003;z-index:20;max-height:50dvh;overflow:auto}
+ /* Navigation must not reduce photographs to the remaining strip of one screen. */
+ :root .hero{height:auto;min-height:0;align-items:stretch}
+ :root .hero-copy{height:auto;min-height:0;grid-template-rows:auto;align-content:start;overflow:visible}
+ :root .building-carousel{height:auto;min-height:0;max-height:none;align-self:start}
+ :root .building-carousel>img{flex:none;width:100%;height:clamp(300px,29vw,460px);min-height:300px;max-height:none;object-fit:contain}
+ :root .hero-visual{height:auto;min-height:0;grid-template-rows:auto minmax(300px,1fr) auto auto;overflow:visible}
+ :root .hero-visual>img{height:100%;min-height:300px;max-height:none;object-fit:contain}
+}
+
+@media(min-width:768px){
+ :root .hero{height:auto;min-height:0}
+ :root .hero-copy{height:auto;min-height:0;overflow:visible}
+ :root .hero h1{white-space:nowrap;font-size:clamp(18px,1.7vw,26px);line-height:1.25;letter-spacing:-.015em;margin:0;max-width:100%}
+ :root .hero h1 span{display:inline}
+ :root .building-carousel{height:auto;min-height:0;max-height:none;width:100%}
+ :root .building-carousel>img{flex:none;width:100%;height:clamp(300px,29vw,460px);min-height:300px;max-height:none;object-fit:contain}
+}
+@media(min-width:1024px){
+ :root header>#nav,:root header>#nav.open{display:grid!important;position:relative;inset:auto;width:100%;grid-template-columns:repeat(2,minmax(0,var(--nav-feature-width,210px))) repeat(7,max-content);gap:10px;align-items:stretch;margin:0;padding:8px 0 0;border:0;border-top:1px solid var(--line);background:transparent;max-height:none;overflow:visible;box-sizing:border-box}
+ :root header>.menu-toggle{display:none!important}
+ :root header>#nav>.nuclear-nav,:root header>#nav>.tender-nav{width:100%;max-width:none;min-width:0;margin:0!important;box-sizing:border-box}
+ :root header>#nav>.nuclear-nav>summary,:root header>#nav>.tender-nav{padding:8px 10px!important;min-height:72px;height:100%;font-size:var(--nav-font-size,16px)!important;line-height:1.4!important;white-space:normal;overflow-wrap:anywhere;box-sizing:border-box}
+ :root header>#nav>a:not(.tender-nav){display:flex;align-items:center;white-space:nowrap;font-size:var(--nav-font-size,16px)!important;padding:8px 0;min-height:44px}
+ :root header>#nav.nav-two-rows{grid-template-columns:repeat(14,minmax(0,1fr))}
+ :root header>#nav.nav-two-rows>.nuclear-nav,:root header>#nav.nav-two-rows>.tender-nav{grid-column:span 7}
+ :root header>#nav.nav-two-rows>a:not(.tender-nav){grid-column:span 2;white-space:normal;justify-content:center;text-align:center}
+ :root .nuclear-nav{position:relative}
+ :root .nuclear-dropdown{position:absolute;top:calc(100% + 6px);inset-inline-start:0;width:min(560px,84vw);max-width:84vw;max-height:50dvh;overflow:auto;z-index:20;box-shadow:0 12px 28px #0003}
+}
+@media(min-width:1100px) and (max-width:1440px){
+ :root header{display:grid;grid-template-columns:minmax(0,1fr) max-content;gap:12px 20px;align-items:center}
+ :root header>.brand{grid-column:1;grid-row:1;max-width:none;width:auto;min-width:0}
+ :root header>.language-switch{grid-column:2;grid-row:1;align-self:end;margin:32px 0 0;max-width:none}
+ :root header>.theme-switch{grid-column:1;grid-row:2;justify-self:start;margin:0}
+ :root header>.header-contacts{position:absolute;top:10px;right:4%;margin:0;font-size:15px}
+ :root header>#nav{grid-column:1/-1;grid-row:3}
+ :root header .brand-description{font-size:14px;line-height:1.45}
+}
+@media(min-width:768px) and (max-width:1050px) and (orientation:portrait){:root .hero{grid-template-columns:1fr}}

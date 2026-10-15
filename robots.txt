@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /inquiries-admin.html
+Disallow: /content-admin.html
+Sitemap: https://positron-2026-v1.eagercorgi32.chatgpt.site/sitemap.xml
+
+Disallow: /results-admin.html

@@ -1,0 +1,330 @@
+{
+  "updated": "2026-10-13",
+  "sources": {
+    "history": "https://www.positron.dp.ua/history.html",
+    "rks": "https://www.positron.dp.ua/rks-02.html",
+    "company": {
+      "type": "enterprise-clarification",
+      "date": "2026-10-13"
+    }
+  },
+  "records": [
+    {
+      "id": "khmel",
+      "country": "UKR",
+      "names": {
+        "ru": "Хмельницкая АЭС · Нетешин",
+        "uk": "Хмельницька АЕС · Нетішин",
+        "en": "Khmelnytskyi NPP · Netishyn",
+        "de": "KKW Chmelnyzkyj · Netischyn",
+        "fr": "Centrale de Khmelnytskyï · Netichyn",
+        "ar": "محطة خملنيتسكي · نيتشين",
+        "zh": "赫梅利尼茨基核电站 · 内季申"
+      },
+      "products": [
+        "amp",
+        "bdmg",
+        "mks"
+      ],
+      "coords": [
+        50.33,
+        26.65
+      ],
+      "source": "history",
+      "confirmed": true
+    },
+    {
+      "id": "rivne",
+      "country": "UKR",
+      "names": {
+        "ru": "Ровенская АЭС · Вараш",
+        "uk": "Рівненська АЕС · Вараш",
+        "en": "Rivne NPP · Varash",
+        "de": "KKW Riwne · Warasch",
+        "fr": "Centrale de Rivne · Varach",
+        "ar": "محطة ريفني · فاراش",
+        "zh": "里夫内核电站 · 瓦拉什"
+      },
+      "products": [
+        "amp",
+        "bdmg",
+        "mks"
+      ],
+      "coords": [
+        51.34,
+        25.85
+      ],
+      "source": "history",
+      "confirmed": true
+    },
+    {
+      "id": "south",
+      "country": "UKR",
+      "names": {
+        "ru": "Южно-Украинская АЭС · Южноукраинск / Південноукраїнськ",
+        "uk": "Південноукраїнська АЕС · Південноукраїнськ",
+        "en": "South Ukraine NPP · Pivdennoukrainsk",
+        "de": "KKW Südukraine · Piwdennoukrajinsk",
+        "fr": "Centrale d’Ukraine du Sud · Pivdennoukraïnsk",
+        "ar": "محطة جنوب أوكرانيا · بيفدينوأوكراينسك",
+        "zh": "南乌克兰核电站 · 南乌克兰斯克"
+      },
+      "products": [
+        "amp",
+        "bdmg",
+        "mks"
+      ],
+      "coords": [
+        47.82,
+        31.18
+      ],
+      "source": "history",
+      "confirmed": true
+    },
+    {
+      "id": "zap",
+      "country": "UKR",
+      "names": {
+        "ru": "Запорожская АЭС · Энергодар",
+        "uk": "Запорізька АЕС · Енергодар",
+        "en": "Zaporizhzhia NPP · Enerhodar",
+        "de": "KKW Saporischschja · Enerhodar",
+        "fr": "Centrale de Zaporijjia · Enerhodar",
+        "ar": "محطة زابوريجيا · إنرهودار",
+        "zh": "扎波罗热核电站 · 埃涅尔戈达尔"
+      },
+      "products": [
+        "amp",
+        "bdmg",
+        "mks",
+        "rzba"
+      ],
+      "coords": [
+        47.5,
+        34.65
+      ],
+      "source": "history",
+      "confirmed": true
+    },
+    {
+      "id": "chornobyl",
+      "country": "UKR",
+      "names": {
+        "ru": "Чернобыльская АЭС, ХОЯТ-2 и «Укрытие»",
+        "uk": "Чорнобильська АЕС, СВЯП-2 та «Укриття»",
+        "en": "Chornobyl NPP, ISF-2 and Shelter",
+        "de": "KKW Tschornobyl, ISF-2 und Shelter",
+        "fr": "Centrale de Tchornobyl, ISF-2 et abri",
+        "ar": "محطة تشيرنوبيل وISF-2 والمأوى",
+        "zh": "切尔诺贝利核电站、ISF-2 和掩体"
+      },
+      "products": [
+        "rzba"
+      ],
+      "coords": [
+        51.27,
+        30.22
+      ],
+      "source": "history",
+      "confirmed": true
+    },
+    {
+      "id": "kharkiv",
+      "country": "UKR",
+      "names": {
+        "ru": "Аэропорт Харькова · международный терминал",
+        "uk": "Аеропорт Харкова · міжнародний термінал",
+        "en": "Kharkiv airport · international terminal",
+        "de": "Flughafen Charkiw · internationales Terminal",
+        "fr": "Aéroport de Kharkiv · terminal international",
+        "ar": "مطار خاركيف · المحطة الدولية",
+        "zh": "哈尔科夫机场 · 国际航站楼"
+      },
+      "products": [],
+      "coords": [
+        49.99,
+        36.23
+      ],
+      "source": "history",
+      "confirmed": true,
+      "historicProduct": "РПС-01 «Кордон» (1996)"
+    },
+    {
+      "id": "chop",
+      "country": "UKR",
+      "names": {
+        "ru": "Автопорт Чоп · Ужгород",
+        "uk": "Автопорт Чоп · Ужгород",
+        "en": "Chop autoport · Uzhhorod",
+        "de": "Autoport Tschop · Uschhorod",
+        "fr": "Autoport de Tchop · Oujhorod",
+        "ar": "ميناء تشوب البري · أوجهورود",
+        "zh": "乔普汽车口岸 · 乌日霍罗德"
+      },
+      "products": [],
+      "coords": [
+        48.62,
+        22.3
+      ],
+      "source": "history",
+      "confirmed": true,
+      "historicProduct": "РПС-01 «Кордон» (1996)"
+    },
+    {
+      "id": "yagodyn",
+      "country": "UKR",
+      "names": {
+        "ru": "МАПП «Ягодын»",
+        "uk": "МАПП «Ягодин»",
+        "en": "Yahodyn road border crossing",
+        "de": "Straßengrenzübergang Jahodyn",
+        "fr": "Poste frontière routier de Yahodyn",
+        "ar": "معبر ياهودين البري",
+        "zh": "亚戈丁公路边境口岸"
+      },
+      "products": [
+        "kordon"
+      ],
+      "coords": [
+        51.2,
+        23.93
+      ],
+      "source": "rks",
+      "confirmed": true
+    },
+    {
+      "id": "arcelor",
+      "country": "UKR",
+      "names": {
+        "ru": "ПАО «АрселорМиттал» · площадка на фото",
+        "uk": "ПАТ «АрселорМіттал» · майданчик на фото",
+        "en": "ArcelorMittal · photographed site",
+        "de": "ArcelorMittal · fotografierter Standort",
+        "fr": "ArcelorMittal · site photographié",
+        "ar": "أرسيلورميتال · الموقع المصور",
+        "zh": "安赛乐米塔尔 · 照片中的厂区"
+      },
+      "products": [
+        "kordon"
+      ],
+      "coords": null,
+      "source": "rks",
+      "confirmed": true,
+      "precision": "country"
+    },
+    {
+      "id": "kozloduy",
+      "country": "BGR",
+      "names": {
+        "ru": "АЭС «Козлодуй»",
+        "uk": "АЕС «Козлодуй»",
+        "en": "Kozloduy NPP",
+        "de": "KKW Kosloduj",
+        "fr": "Centrale de Kozlodouï",
+        "ar": "محطة كوزلودوي",
+        "zh": "科兹洛杜伊核电站"
+      },
+      "products": [
+        "rzba"
+      ],
+      "coords": [
+        43.78,
+        23.72
+      ],
+      "source": "history",
+      "confirmed": true,
+      "companyConfirmed": true,
+      "companyConfirmationDate": "2026-10-13"
+    },
+    {
+      "id": "lithuania",
+      "country": "LTU",
+      "names": {
+        "ru": "АЭС · Висагинас",
+        "uk": "АЕС · Вісагінас",
+        "en": "Nuclear power plant · Visaginas",
+        "de": "Kernkraftwerk · Visaginas",
+        "fr": "Centrale nucléaire · Visaginas",
+        "ar": "محطة طاقة نووية · فيساغيناس",
+        "zh": "核电站 · 维萨吉纳斯"
+      },
+      "products": [
+        "amp"
+      ],
+      "coords": [
+        55.6,
+        26.42
+      ],
+      "source": "history",
+      "confirmed": true,
+      "companyConfirmed": true,
+      "companyConfirmationDate": "2026-10-13",
+      "coordinateSource": "https://www.geonames.org/search.html?country=LT&q=Visaginas"
+    },
+    {
+      "id": "kazakhstan",
+      "country": "KAZ",
+      "names": {
+        "ru": "Усть-Каменогорск · система экологического мониторинга города",
+        "uk": "Усть-Каменогорськ · система екологічного моніторингу міста",
+        "en": "Ust-Kamenogorsk · city environmental monitoring system",
+        "de": "Ust-Kamenogorsk · städtisches Umweltüberwachungssystem",
+        "fr": "Oust-Kamenogorsk · système de surveillance environnementale de la ville",
+        "ar": "أوست كامينوغورسك · نظام الرصد البيئي للمدينة",
+        "zh": "乌斯季卡缅诺戈尔斯克 · 城市环境监测系统"
+      },
+      "products": [],
+      "coords": [
+        49.97,
+        82.61
+      ],
+      "source": "company",
+      "confirmed": true,
+      "companyConfirmed": true,
+      "equipmentNames": {
+        "ru": "Система экологического мониторинга города; модели приборов не уточнены",
+        "uk": "Система екологічного моніторингу міста; моделі приладів не уточнено",
+        "en": "City environmental monitoring system; instrument models not specified",
+        "de": "Städtisches Umweltüberwachungssystem; Gerätemodelle nicht angegeben",
+        "fr": "Système de surveillance environnementale de la ville ; modèles des appareils non précisés",
+        "ar": "نظام الرصد البيئي للمدينة؛ طرازات الأجهزة غير محددة",
+        "zh": "城市环境监测系统；仪器型号尚未说明"
+      },
+      "companyConfirmationDate": "2026-10-13",
+      "coordinateSource": "https://www.geonames.org/search.html?country=KZ"
+    },
+    {
+      "id": "frankfurt",
+      "country": "DEU",
+      "names": {
+        "ru": "Bertin GmbH · Франкфурт-на-Майне",
+        "uk": "Bertin GmbH · Франкфурт-на-Майні",
+        "en": "Bertin GmbH · Frankfurt am Main",
+        "de": "Bertin GmbH · Frankfurt am Main",
+        "fr": "Bertin GmbH · Francfort-sur-le-Main",
+        "ar": "Bertin GmbH · فرانكفورت أم ماين",
+        "zh": "Bertin GmbH · 美因河畔法兰克福"
+      },
+      "products": [],
+      "filterProduct": "utp",
+      "equipmentNames": {
+        "ru": "УТП — универсальная телеметрическая платформа",
+        "uk": "УТП — універсальна телеметрична платформа",
+        "en": "UTP — universal telemetry platform",
+        "de": "UTP — universelle Telemetrieplattform",
+        "fr": "UTP — plateforme universelle de télémétrie",
+        "ar": "UTP — منصة القياس عن بُعد العالمية",
+        "zh": "UTP — 通用遥测平台"
+      },
+      "coords": [
+        50.11,
+        8.68
+      ],
+      "source": "company",
+      "confirmed": true,
+      "companyConfirmed": true,
+      "companyConfirmationDate": "2026-10-13",
+      "coordinatePrecision": "city-area"
+    }
+  ]
+}
