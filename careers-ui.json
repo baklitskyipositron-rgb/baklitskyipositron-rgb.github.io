@@ -1,0 +1,786 @@
+{
+  "ru": {
+    "button": "Предложения по работе на Позитрон ГМБХ",
+    "menu": [
+      "Перечень специалистов",
+      "Опыт и квалификация",
+      "Прислать заявку и резюме"
+    ],
+    "title": "Работа на Позитрон ГМБХ",
+    "intro": "Принимаем резюме по направлениям разработки, производства и сопровождения аппаратуры радиационного контроля. Конкретную потребность в специалистах и условия работы предприятие подтверждает при рассмотрении кандидатуры.",
+    "status": "Направления для приёма резюме — наличие вакансии уточняется",
+    "search": "Поиск по специальности и навыкам",
+    "category": "Направление",
+    "all": "Все направления",
+    "groups": [
+      "Разработка",
+      "Производство и сервис",
+      "Работа с клиентами"
+    ],
+    "count": "Направлений",
+    "empty": "По выбранным условиям ничего не найдено. Можно отправить инициативное резюме.",
+    "experienceLabel": "Опыт",
+    "qualificationLabel": "Квалификация",
+    "apply": "Откликнуться",
+    "requirementsTitle": "Опыт и квалификация",
+    "requirements": "Укажите образование, профильный опыт, технические навыки и выполненные проекты. Требования ниже описывают профиль каждого направления; стаж в годах, график, оплата и условия найма уточняются предприятием.",
+    "formTitle": "Заявка кандидата и резюме",
+    "formIntro": "Заявка и PDF-резюме сохраняются для рассмотрения сотрудниками предприятия. Резюме не публикуется в открытом доступе.",
+    "fields": [
+      "ФИО",
+      "Email",
+      "Телефон",
+      "Специальность",
+      "Опыт работы",
+      "Образование и квалификация",
+      "Сопроводительное сообщение",
+      "Резюме PDF до 2 МБ"
+    ],
+    "general": "Инициативное резюме",
+    "consent": "Согласен на обработку указанных данных и резюме для рассмотрения моей кандидатуры.",
+    "send": "Отправить заявку и резюме",
+    "sending": "Сохранение заявки…",
+    "success": "Заявка и резюме сохранены. Номер",
+    "error": "Не удалось подтвердить сохранение. Проверьте поля и повторите отправку.",
+    "fileError": "Выберите PDF-резюме размером не более 2 МБ.",
+    "rate": "Слишком много отправок. Попробуйте позже.",
+    "privacy": "По вопросам обработки или удаления резюме свяжитесь с предприятием: info@positron.dp.ua.",
+    "themeLight": "Светлый фон",
+    "themeDark": "Тёмный фон",
+    "back": "На сайт",
+    "roles": [
+      {
+        "id": "electronics",
+        "name": "Инженер электронщик",
+        "experience": "Опыт работы с Altium Designer: разводка печатных плат, составление спецификаций и технической документации.",
+        "qualification": "Altium Designer, разработка схем и трассировка печатных плат, библиотеки компонентов, подготовка спецификаций (BOM) и файлов для изготовления, оформление технической документации.",
+        "group": 0,
+        "image": "/assets/careers-electronics-v29.jpg",
+        "imageNote": "Иллюстрация разработки печатной платы в Altium Designer"
+      },
+      {
+        "id": "firmware",
+        "name": "Разработчик встроенного ПО STM32 с ChatGPT / Codex",
+        "experience": "Разработка встроенного программного обеспечения (Embedded Firmware) для микроконтроллеров семейства STM32 на базе ядер ARM Cortex-M с использованием ChatGPT / Codex.",
+        "qualification": "C/C++, STM32, ARM Cortex-M, SWD/SWO и трассировка; Python для автоматизации испытаний; проверка и отладка кода, подготовленного с помощью ChatGPT / Codex.",
+        "group": 0,
+        "image": "/assets/careers-firmware-v28.jpg",
+        "imageNote": "Иллюстрация рабочего места разработчика STM32"
+      },
+      {
+        "id": "mechanical",
+        "name": "Инженер конструктор",
+        "experience": "Опыт работы с SOLIDWORKS: проектирование механических конструкций, 3D-моделирование и работа с 3D-принтером.",
+        "qualification": "SOLIDWORKS, разработка деталей и сборок, чертежи, подготовка моделей к 3D-печати, прототипирование и оформление конструкторской документации.",
+        "group": 0,
+        "image": "/assets/careers-mechanical-v29.jpg",
+        "imageNote": "Иллюстрация 3D-проектирования в SOLIDWORKS и прототипирования"
+      },
+      {
+        "id": "metrology",
+        "name": "Инженер метролог и специалист по испытаниям",
+        "experience": "Опыт измерений, калибровки или испытаний приборов.",
+        "qualification": "Метрология, обработка результатов, оценка неопределённости и методики испытаний.",
+        "group": 1,
+        "image": "/assets/production-mks.jpg"
+      },
+      {
+        "id": "assembly",
+        "name": "Специалист по сборке и наладке",
+        "experience": "Опыт сборки, монтажа и настройки электронных изделий.",
+        "qualification": "Пайка, чтение схем, работа с измерительным оборудованием и контроль качества.",
+        "group": 1,
+        "image": "/assets/production-workshop.jpeg"
+      },
+      {
+        "id": "service",
+        "name": "Сервисный инженер",
+        "experience": "Опыт диагностики, ремонта и ввода оборудования в эксплуатацию.",
+        "qualification": "Поиск неисправностей, настройка приборов, документация и взаимодействие с заказчиком.",
+        "group": 1,
+        "image": "/assets/company-7-4.jpeg"
+      },
+      {
+        "id": "marketing",
+        "name": "Специалист по маркетингу и техническим продажам",
+        "experience": "Опыт работы с промышленными заказчиками и технической продукцией.",
+        "qualification": "B2B коммуникация, технические предложения, закупки и тендерная документация.",
+        "group": 2,
+        "image": "/assets/company-1-3.jpeg"
+      }
+    ],
+    "illustrationNote": "Иллюстрация рабочего места разработчика STM32"
+  },
+  "uk": {
+    "button": "Пропозиції роботи на Позитрон ГМБХ",
+    "menu": [
+      "Перелік спеціалістів",
+      "Досвід і кваліфікація",
+      "Надіслати заявку та резюме"
+    ],
+    "title": "Робота на Позитрон ГМБХ",
+    "intro": "Приймаємо резюме за напрямами розробки, виробництва та супроводу апаратури радіаційного контролю. Конкретну потребу у фахівцях та умови роботи підприємство підтверджує під час розгляду кандидатури.",
+    "status": "Напрями приймання резюме — наявність вакансії уточнюється",
+    "search": "Пошук за спеціальністю та навичками",
+    "category": "Напрям",
+    "all": "Усі напрями",
+    "groups": [
+      "Розробка",
+      "Виробництво і сервіс",
+      "Робота з клієнтами"
+    ],
+    "count": "Напрямів",
+    "empty": "Нічого не знайдено. Можна надіслати ініціативне резюме.",
+    "experienceLabel": "Досвід",
+    "qualificationLabel": "Кваліфікація",
+    "apply": "Відгукнутися",
+    "requirementsTitle": "Досвід і кваліфікація",
+    "requirements": "Укажіть освіту, профільний досвід, технічні навички та виконані проєкти. Вимоги нижче описують профіль напряму; стаж у роках, графік, оплату та умови найму уточнює підприємство.",
+    "formTitle": "Заявка кандидата та резюме",
+    "formIntro": "Заявка та PDF-резюме зберігаються для розгляду працівниками підприємства. Резюме не публікується у відкритому доступі.",
+    "fields": [
+      "ПІБ",
+      "Email",
+      "Телефон",
+      "Спеціальність",
+      "Досвід роботи",
+      "Освіта і кваліфікація",
+      "Супровідне повідомлення",
+      "Резюме PDF до 2 МБ"
+    ],
+    "general": "Ініціативне резюме",
+    "consent": "Погоджуюся на обробку вказаних даних і резюме для розгляду моєї кандидатури.",
+    "send": "Надіслати заявку та резюме",
+    "sending": "Збереження заявки…",
+    "success": "Заявку та резюме збережено. Номер",
+    "error": "Не вдалося підтвердити збереження. Перевірте поля й повторіть відправлення.",
+    "fileError": "Виберіть PDF-резюме розміром не більш ніж 2 МБ.",
+    "rate": "Забагато відправлень. Спробуйте пізніше.",
+    "privacy": "З питань обробки або видалення резюме звертайтеся: info@positron.dp.ua.",
+    "themeLight": "Світле тло",
+    "themeDark": "Темне тло",
+    "back": "На сайт",
+    "roles": [
+      {
+        "id": "electronics",
+        "name": "Інженер електронік",
+        "experience": "Досвід роботи з Altium Designer: розведення друкованих плат, складання специфікацій та технічної документації.",
+        "qualification": "Altium Designer, розробка схем і трасування друкованих плат, бібліотеки компонентів, підготовка специфікацій (BOM), файлів для виготовлення та технічної документації.",
+        "group": 0,
+        "image": "/assets/careers-electronics-v29.jpg",
+        "imageNote": "Ілюстрація розробки друкованої плати в Altium Designer"
+      },
+      {
+        "id": "firmware",
+        "name": "Розробник вбудованого ПЗ STM32 з ChatGPT / Codex",
+        "experience": "Розробка вбудованого програмного забезпечення (Embedded Firmware) для мікроконтролерів сімейства STM32 на базі ядер ARM Cortex-M із використанням ChatGPT / Codex.",
+        "qualification": "C/C++, STM32, ARM Cortex-M, SWD/SWO і трасування; Python для автоматизації випробувань; перевірка та налагодження коду, підготовленого за допомогою ChatGPT / Codex.",
+        "group": 0,
+        "image": "/assets/careers-firmware-v28.jpg",
+        "imageNote": "Ілюстрація робочого місця розробника STM32"
+      },
+      {
+        "id": "mechanical",
+        "name": "Інженер конструктор",
+        "experience": "Досвід роботи з SOLIDWORKS: проєктування механічних конструкцій, 3D-моделювання та робота з 3D-принтером.",
+        "qualification": "SOLIDWORKS, розробка деталей і збірок, креслення, підготовка моделей до 3D-друку, прототипування та конструкторська документація.",
+        "group": 0,
+        "image": "/assets/careers-mechanical-v29.jpg",
+        "imageNote": "Ілюстрація 3D-проєктування в SOLIDWORKS і прототипування"
+      },
+      {
+        "id": "metrology",
+        "name": "Інженер метролог і фахівець з випробувань",
+        "experience": "Досвід вимірювань, калібрування або випробувань.",
+        "qualification": "Метрологія, результати вимірювань, невизначеність і методики випробувань.",
+        "group": 1,
+        "image": "/assets/production-mks.jpg"
+      },
+      {
+        "id": "assembly",
+        "name": "Фахівець зі складання та налагодження",
+        "experience": "Досвід складання, монтажу та налаштування електронних виробів.",
+        "qualification": "Паяння, читання схем, вимірювальне обладнання та контроль якості.",
+        "group": 1,
+        "image": "/assets/production-workshop.jpeg"
+      },
+      {
+        "id": "service",
+        "name": "Сервісний інженер",
+        "experience": "Досвід діагностики, ремонту та введення обладнання в експлуатацію.",
+        "qualification": "Пошук несправностей, налаштування, документація та робота із замовником.",
+        "group": 1,
+        "image": "/assets/company-7-4.jpeg"
+      },
+      {
+        "id": "marketing",
+        "name": "Фахівець з маркетингу та технічних продажів",
+        "experience": "Досвід роботи з промисловими замовниками та технічною продукцією.",
+        "qualification": "B2B комунікація, технічні пропозиції, закупівлі й тендерна документація.",
+        "group": 2,
+        "image": "/assets/company-1-3.jpeg"
+      }
+    ],
+    "illustrationNote": "Ілюстрація робочого місця розробника STM32"
+  },
+  "en": {
+    "button": "Careers at Positron GmbH",
+    "menu": [
+      "Specialist profiles",
+      "Experience and qualifications",
+      "Submit application and CV"
+    ],
+    "title": "Careers at Positron GmbH",
+    "intro": "We accept CVs for the development, manufacture and support of radiation monitoring equipment. The company confirms current staffing needs and employment terms when reviewing an application.",
+    "status": "CV submission profiles — vacancy availability to be confirmed",
+    "search": "Search specialism and skills",
+    "category": "Field",
+    "all": "All fields",
+    "groups": [
+      "Development",
+      "Production and service",
+      "Customer relations"
+    ],
+    "count": "Profiles",
+    "empty": "No matching profiles. You can submit a speculative application.",
+    "experienceLabel": "Experience",
+    "qualificationLabel": "Qualifications",
+    "apply": "Apply",
+    "requirementsTitle": "Experience and qualifications",
+    "requirements": "Describe your education, relevant experience, technical skills and completed projects. The profiles below indicate relevant expertise; years of experience, schedule, pay and employment terms are confirmed by the company.",
+    "formTitle": "Candidate application and CV",
+    "formIntro": "Your application and PDF CV are stored for review by company staff. Your CV is not published publicly.",
+    "fields": [
+      "Full name",
+      "Email",
+      "Phone",
+      "Specialism",
+      "Work experience",
+      "Education and qualifications",
+      "Cover message",
+      "PDF CV up to 2 MB"
+    ],
+    "general": "Speculative application",
+    "consent": "I consent to the processing of these details and my CV to assess my application.",
+    "send": "Submit application and CV",
+    "sending": "Saving application…",
+    "success": "Application and CV saved. Reference",
+    "error": "Saving could not be confirmed. Check your details and try again.",
+    "fileError": "Select a PDF CV no larger than 2 MB.",
+    "rate": "Too many submissions. Please try later.",
+    "privacy": "For CV processing or deletion enquiries: info@positron.dp.ua.",
+    "themeLight": "Light theme",
+    "themeDark": "Dark theme",
+    "back": "Company site",
+    "roles": [
+      {
+        "id": "electronics",
+        "name": "Electronics engineer",
+        "experience": "Experience with Altium Designer: PCB layout, preparation of parts specifications and technical documentation.",
+        "qualification": "Altium Designer, schematic design and PCB routing, component libraries, bills of materials (BOM), manufacturing files and technical documentation.",
+        "group": 0,
+        "image": "/assets/careers-electronics-v29.jpg",
+        "imageNote": "Conceptual illustration of PCB design in Altium Designer"
+      },
+      {
+        "id": "firmware",
+        "name": "STM32 embedded firmware developer using ChatGPT / Codex",
+        "experience": "Development of Embedded Firmware for the STM32 microcontroller family based on ARM Cortex-M cores, using ChatGPT / Codex.",
+        "qualification": "C/C++, STM32, ARM Cortex-M, SWD/SWO and tracing; Python for test automation; review and debugging of code prepared with ChatGPT / Codex.",
+        "group": 0,
+        "image": "/assets/careers-firmware-v28.jpg",
+        "imageNote": "Conceptual illustration of an STM32 development workstation"
+      },
+      {
+        "id": "mechanical",
+        "name": "Mechanical design engineer",
+        "experience": "Experience with SOLIDWORKS: mechanical design, 3D modelling and use of a 3D printer.",
+        "qualification": "SOLIDWORKS, part and assembly design, drawings, preparation of models for 3D printing, prototyping and design documentation.",
+        "group": 0,
+        "image": "/assets/careers-mechanical-v29.jpg",
+        "imageNote": "Conceptual illustration of SOLIDWORKS 3D design and prototyping"
+      },
+      {
+        "id": "metrology",
+        "name": "Metrology and test engineer",
+        "experience": "Experience in measurement, calibration or instrument testing.",
+        "qualification": "Metrology, measurement results, uncertainty and test procedures.",
+        "group": 1,
+        "image": "/assets/production-mks.jpg"
+      },
+      {
+        "id": "assembly",
+        "name": "Assembly and commissioning specialist",
+        "experience": "Experience assembling and adjusting electronic products.",
+        "qualification": "Soldering, schematic reading, test equipment and quality control.",
+        "group": 1,
+        "image": "/assets/production-workshop.jpeg"
+      },
+      {
+        "id": "service",
+        "name": "Service engineer",
+        "experience": "Experience diagnosing, repairing and commissioning equipment.",
+        "qualification": "Fault finding, instrument setup, documentation and customer support.",
+        "group": 1,
+        "image": "/assets/company-7-4.jpeg"
+      },
+      {
+        "id": "marketing",
+        "name": "Marketing and technical sales specialist",
+        "experience": "Experience with industrial customers and technical products.",
+        "qualification": "B2B communication, technical proposals, procurement and tender documents.",
+        "group": 2,
+        "image": "/assets/company-1-3.jpeg"
+      }
+    ],
+    "illustrationNote": "Conceptual illustration of an STM32 development workstation"
+  },
+  "de": {
+    "button": "Stellenangebote bei Positron GmbH",
+    "menu": [
+      "Gesuchte Fachprofile",
+      "Erfahrung und Qualifikation",
+      "Bewerbung und Lebenslauf senden"
+    ],
+    "title": "Karriere bei Positron GmbH",
+    "intro": "Wir nehmen Bewerbungen für Entwicklung, Fertigung und Betreuung von Strahlenmesstechnik entgegen. Den aktuellen Personalbedarf und die Arbeitsbedingungen bestätigt das Unternehmen bei der Prüfung der Bewerbung.",
+    "status": "Bewerbungsprofile — Verfügbarkeit einer Stelle wird bestätigt",
+    "search": "Fachgebiet und Kenntnisse suchen",
+    "category": "Bereich",
+    "all": "Alle Bereiche",
+    "groups": [
+      "Entwicklung",
+      "Fertigung und Service",
+      "Kundenbetreuung"
+    ],
+    "count": "Profile",
+    "empty": "Keine passenden Profile. Eine Initiativbewerbung ist möglich.",
+    "experienceLabel": "Erfahrung",
+    "qualificationLabel": "Qualifikation",
+    "apply": "Bewerben",
+    "requirementsTitle": "Erfahrung und Qualifikation",
+    "requirements": "Beschreiben Sie Ausbildung, einschlägige Erfahrung, technische Kenntnisse und Projekte. Die Profile nennen relevante Kompetenzen; Berufsjahre, Arbeitszeit, Vergütung und Beschäftigungsbedingungen bestätigt das Unternehmen.",
+    "formTitle": "Bewerbung und Lebenslauf",
+    "formIntro": "Bewerbung und PDF-Lebenslauf werden zur Prüfung durch Mitarbeiter gespeichert. Der Lebenslauf wird nicht öffentlich veröffentlicht.",
+    "fields": [
+      "Vor und Nachname",
+      "Email",
+      "Telefon",
+      "Fachgebiet",
+      "Berufserfahrung",
+      "Ausbildung und Qualifikation",
+      "Begleitnachricht",
+      "PDF Lebenslauf bis 2 MB"
+    ],
+    "general": "Initiativbewerbung",
+    "consent": "Ich stimme der Verarbeitung dieser Angaben und meines Lebenslaufs zur Prüfung meiner Bewerbung zu.",
+    "send": "Bewerbung und Lebenslauf senden",
+    "sending": "Bewerbung wird gespeichert…",
+    "success": "Bewerbung und Lebenslauf gespeichert. Nummer",
+    "error": "Speicherung nicht bestätigt. Angaben prüfen und erneut versuchen.",
+    "fileError": "Bitte einen PDF-Lebenslauf bis 2 MB auswählen.",
+    "rate": "Zu viele Übermittlungen. Bitte später versuchen.",
+    "privacy": "Fragen zur Verarbeitung oder Löschung: info@positron.dp.ua.",
+    "themeLight": "Heller Hintergrund",
+    "themeDark": "Dunkler Hintergrund",
+    "back": "Unternehmenswebsite",
+    "roles": [
+      {
+        "id": "electronics",
+        "name": "Elektronikingenieur",
+        "experience": "Erfahrung mit Altium Designer: Leiterplattenlayout, Erstellung von Stücklisten und technischer Dokumentation.",
+        "qualification": "Altium Designer, Schaltplanentwicklung und Leiterplattenrouting, Bauteilbibliotheken, Stücklisten (BOM), Fertigungsdaten und technische Dokumentation.",
+        "group": 0,
+        "image": "/assets/careers-electronics-v29.jpg",
+        "imageNote": "Illustration der Leiterplattenentwicklung mit Altium Designer"
+      },
+      {
+        "id": "firmware",
+        "name": "STM32 Firmware Entwickler mit ChatGPT / Codex",
+        "experience": "Entwicklung von Embedded Firmware für STM32 Mikrocontroller auf Basis von ARM Cortex-M Kernen unter Einsatz von ChatGPT / Codex.",
+        "qualification": "C/C++, STM32, ARM Cortex-M, SWD/SWO und Tracing; Python zur Testautomatisierung; Prüfung und Debugging des mit ChatGPT / Codex erstellten Codes.",
+        "group": 0,
+        "image": "/assets/careers-firmware-v28.jpg",
+        "imageNote": "Illustration eines STM32 Entwicklerarbeitsplatzes"
+      },
+      {
+        "id": "mechanical",
+        "name": "Konstruktionsingenieur",
+        "experience": "Erfahrung mit SOLIDWORKS: Konstruktion mechanischer Baugruppen, 3D Modellierung und Arbeit mit einem 3D Drucker.",
+        "qualification": "SOLIDWORKS, Bauteile und Baugruppen, Zeichnungen, Vorbereitung von Modellen für den 3D Druck, Prototypen und Konstruktionsdokumentation.",
+        "group": 0,
+        "image": "/assets/careers-mechanical-v29.jpg",
+        "imageNote": "Illustration von SOLIDWORKS 3D Konstruktion und Prototypenbau"
+      },
+      {
+        "id": "metrology",
+        "name": "Ingenieur für Messtechnik und Prüfung",
+        "experience": "Erfahrung mit Messungen, Kalibrierung oder Geräteprüfungen.",
+        "qualification": "Metrologie, Messergebnisse, Unsicherheit und Prüfverfahren.",
+        "group": 1,
+        "image": "/assets/production-mks.jpg"
+      },
+      {
+        "id": "assembly",
+        "name": "Fachkraft für Montage und Einstellung",
+        "experience": "Erfahrung mit Montage und Einstellung elektronischer Produkte.",
+        "qualification": "Löten, Schaltpläne, Messgeräte und Qualitätskontrolle.",
+        "group": 1,
+        "image": "/assets/production-workshop.jpeg"
+      },
+      {
+        "id": "service",
+        "name": "Serviceingenieur",
+        "experience": "Erfahrung mit Diagnose, Reparatur und Inbetriebnahme.",
+        "qualification": "Fehlersuche, Geräteeinstellung, Dokumentation und Kundenbetreuung.",
+        "group": 1,
+        "image": "/assets/company-7-4.jpeg"
+      },
+      {
+        "id": "marketing",
+        "name": "Fachkraft für Marketing und technischen Vertrieb",
+        "experience": "Erfahrung mit Industriekunden und technischen Produkten.",
+        "qualification": "B2B Kommunikation, technische Angebote, Beschaffung und Ausschreibungen.",
+        "group": 2,
+        "image": "/assets/company-1-3.jpeg"
+      }
+    ],
+    "illustrationNote": "Illustration eines STM32 Entwicklerarbeitsplatzes"
+  },
+  "fr": {
+    "button": "Offres de travail chez Positron GmbH",
+    "menu": [
+      "Profils recherchés",
+      "Expérience et qualifications",
+      "Envoyer candidature et CV"
+    ],
+    "title": "Carrières chez Positron GmbH",
+    "intro": "Nous recevons des CV pour le développement, la fabrication et le suivi des équipements de surveillance radiologique. Les besoins actuels et les conditions de travail sont confirmés par l’entreprise lors de l’examen de la candidature.",
+    "status": "Profils pour dépôt de CV — disponibilité du poste à confirmer",
+    "search": "Rechercher spécialité et compétences",
+    "category": "Domaine",
+    "all": "Tous les domaines",
+    "groups": [
+      "Développement",
+      "Production et service",
+      "Relations clients"
+    ],
+    "count": "Profils",
+    "empty": "Aucun profil correspondant. Une candidature spontanée est possible.",
+    "experienceLabel": "Expérience",
+    "qualificationLabel": "Qualifications",
+    "apply": "Postuler",
+    "requirementsTitle": "Expérience et qualifications",
+    "requirements": "Indiquez formation, expérience pertinente, compétences techniques et projets réalisés. Les profils indiquent les compétences utiles; ancienneté, horaires, rémunération et conditions sont confirmés par l’entreprise.",
+    "formTitle": "Candidature et CV",
+    "formIntro": "Votre candidature et votre CV PDF sont conservés pour examen par les collaborateurs. Le CV n’est pas publié en accès public.",
+    "fields": [
+      "Nom complet",
+      "Email",
+      "Téléphone",
+      "Spécialité",
+      "Expérience professionnelle",
+      "Formation et qualifications",
+      "Message de candidature",
+      "CV PDF jusqu’à 2 Mo"
+    ],
+    "general": "Candidature spontanée",
+    "consent": "Je consens au traitement de ces informations et de mon CV pour l’examen de ma candidature.",
+    "send": "Envoyer candidature et CV",
+    "sending": "Enregistrement de la candidature…",
+    "success": "Candidature et CV enregistrés. Numéro",
+    "error": "Enregistrement non confirmé. Vérifiez les champs et réessayez.",
+    "fileError": "Choisissez un CV PDF de 2 Mo maximum.",
+    "rate": "Trop d’envois. Réessayez plus tard.",
+    "privacy": "Pour le traitement ou la suppression du CV: info@positron.dp.ua.",
+    "themeLight": "Thème clair",
+    "themeDark": "Thème sombre",
+    "back": "Site de l’entreprise",
+    "roles": [
+      {
+        "id": "electronics",
+        "name": "Ingénieur électronique",
+        "experience": "Expérience avec Altium Designer: implantation et routage de circuits imprimés, spécifications et documentation technique.",
+        "qualification": "Altium Designer, schémas et routage de circuits imprimés, bibliothèques de composants, nomenclatures (BOM), fichiers de fabrication et documentation technique.",
+        "group": 0,
+        "image": "/assets/careers-electronics-v29.jpg",
+        "imageNote": "Illustration de conception de circuit imprimé dans Altium Designer"
+      },
+      {
+        "id": "firmware",
+        "name": "Développeur de firmware embarqué STM32 avec ChatGPT / Codex",
+        "experience": "Développement de logiciels embarqués (Embedded Firmware) pour la famille de microcontrôleurs STM32 à cœurs ARM Cortex-M, avec ChatGPT / Codex.",
+        "qualification": "C/C++, STM32, ARM Cortex-M, SWD/SWO et traçage; Python pour l’automatisation des essais; vérification et débogage du code préparé avec ChatGPT / Codex.",
+        "group": 0,
+        "image": "/assets/careers-firmware-v28.jpg",
+        "imageNote": "Illustration d’un poste de développement STM32"
+      },
+      {
+        "id": "mechanical",
+        "name": "Ingénieur en conception mécanique",
+        "experience": "Expérience avec SOLIDWORKS: conception mécanique, modélisation 3D et utilisation d’une imprimante 3D.",
+        "qualification": "SOLIDWORKS, conception de pièces et d’assemblages, plans, préparation de modèles pour l’impression 3D, prototypage et documentation de conception.",
+        "group": 0,
+        "image": "/assets/careers-mechanical-v29.jpg",
+        "imageNote": "Illustration de conception 3D et de prototypage avec SOLIDWORKS"
+      },
+      {
+        "id": "metrology",
+        "name": "Ingénieur métrologie et essais",
+        "experience": "Expérience en mesure, étalonnage ou essais d’instruments.",
+        "qualification": "Métrologie, résultats de mesure, incertitudes et procédures d’essai.",
+        "group": 1,
+        "image": "/assets/production-mks.jpg"
+      },
+      {
+        "id": "assembly",
+        "name": "Spécialiste montage et réglage",
+        "experience": "Expérience en montage et réglage de produits électroniques.",
+        "qualification": "Soudure, lecture de schémas, équipements de mesure et qualité.",
+        "group": 1,
+        "image": "/assets/production-workshop.jpeg"
+      },
+      {
+        "id": "service",
+        "name": "Ingénieur service",
+        "experience": "Expérience en diagnostic, réparation et mise en service.",
+        "qualification": "Recherche de pannes, réglage, documentation et assistance client.",
+        "group": 1,
+        "image": "/assets/company-7-4.jpeg"
+      },
+      {
+        "id": "marketing",
+        "name": "Spécialiste marketing et vente technique",
+        "experience": "Expérience auprès de clients industriels et de produits techniques.",
+        "qualification": "Communication B2B, offres techniques, achats et appels d’offres.",
+        "group": 2,
+        "image": "/assets/company-1-3.jpeg"
+      }
+    ],
+    "illustrationNote": "Illustration d’un poste de développement STM32"
+  },
+  "ar": {
+    "button": "فرص العمل في بوزيترون",
+    "menu": [
+      "التخصصات المطلوبة",
+      "الخبرة والمؤهلات",
+      "إرسال الطلب والسيرة الذاتية"
+    ],
+    "title": "العمل في بوزيترون",
+    "intro": "نستقبل السير الذاتية في مجالات تطوير وتصنيع ودعم معدات المراقبة الإشعاعية. تؤكد الشركة الاحتياجات الفعلية وشروط العمل عند دراسة الطلب.",
+    "status": "مجالات استقبال السير الذاتية — توافر الوظيفة يحتاج إلى تأكيد",
+    "search": "البحث حسب التخصص والمهارات",
+    "category": "المجال",
+    "all": "جميع المجالات",
+    "groups": [
+      "التطوير",
+      "الإنتاج والخدمة",
+      "علاقات العملاء"
+    ],
+    "count": "المجالات",
+    "empty": "لا توجد نتائج مطابقة. يمكن إرسال طلب مبادرة.",
+    "experienceLabel": "الخبرة",
+    "qualificationLabel": "المؤهلات",
+    "apply": "تقديم طلب",
+    "requirementsTitle": "الخبرة والمؤهلات",
+    "requirements": "اذكر التعليم والخبرة والمهارات والمشاريع. توضح المجالات الكفاءات المناسبة؛ تؤكد الشركة سنوات الخبرة المطلوبة والجدول والأجر وشروط التوظيف.",
+    "formTitle": "طلب المرشح والسيرة الذاتية",
+    "formIntro": "يُحفظ الطلب وملف السيرة الذاتية PDF لدراستهما من موظفي الشركة. لا تُنشر السيرة الذاتية للعامة.",
+    "fields": [
+      "الاسم الكامل",
+      "البريد الإلكتروني",
+      "الهاتف",
+      "التخصص",
+      "الخبرة العملية",
+      "التعليم والمؤهلات",
+      "رسالة مرفقة",
+      "سيرة ذاتية PDF حتى 2 ميغابايت"
+    ],
+    "general": "طلب مبادرة",
+    "consent": "أوافق على معالجة هذه البيانات وسيرتي الذاتية لدراسة ترشيحي.",
+    "send": "إرسال الطلب والسيرة الذاتية",
+    "sending": "جارٍ حفظ الطلب…",
+    "success": "تم حفظ الطلب والسيرة الذاتية. الرقم",
+    "error": "لم يتأكد الحفظ. تحقق من الحقول وأعد المحاولة.",
+    "fileError": "اختر ملف PDF لا يزيد حجمه عن 2 ميغابايت.",
+    "rate": "طلبات كثيرة. يرجى المحاولة لاحقًا.",
+    "privacy": "لاستفسارات معالجة السيرة الذاتية أو حذفها: info@positron.dp.ua.",
+    "themeLight": "خلفية فاتحة",
+    "themeDark": "خلفية داكنة",
+    "back": "موقع الشركة",
+    "roles": [
+      {
+        "id": "electronics",
+        "name": "مهندس إلكترونيات",
+        "experience": "خبرة في Altium Designer: تخطيط وتوجيه لوحات الدوائر المطبوعة وإعداد المواصفات والوثائق الفنية.",
+        "qualification": "Altium Designer وتصميم المخططات وتوجيه اللوحات ومكتبات المكونات وقوائم المواد (BOM) وملفات التصنيع والوثائق الفنية.",
+        "group": 0,
+        "image": "/assets/careers-electronics-v29.jpg",
+        "imageNote": "رسم توضيحي لتصميم لوحة دوائر في Altium Designer"
+      },
+      {
+        "id": "firmware",
+        "name": "مطور برمجيات مدمجة STM32 باستخدام ChatGPT / Codex",
+        "experience": "تطوير البرمجيات المدمجة (Embedded Firmware) لعائلة المتحكمات الدقيقة STM32 المبنية على أنوية ARM Cortex-M باستخدام ChatGPT / Codex.",
+        "qualification": "C/C++ وSTM32 وARM Cortex-M وSWD/SWO والتتبع؛ Python لأتمتة الاختبارات؛ مراجعة وتصحيح الكود المُعد بمساعدة ChatGPT / Codex.",
+        "group": 0,
+        "image": "/assets/careers-firmware-v28.jpg",
+        "imageNote": "رسم توضيحي لمحطة تطوير STM32"
+      },
+      {
+        "id": "mechanical",
+        "name": "مهندس تصميم ميكانيكي",
+        "experience": "خبرة في SOLIDWORKS: تصميم الهياكل الميكانيكية والنمذجة ثلاثية الأبعاد والعمل باستخدام طابعة ثلاثية الأبعاد.",
+        "qualification": "SOLIDWORKS وتصميم الأجزاء والتجميعات والرسومات وإعداد النماذج للطباعة ثلاثية الأبعاد والنماذج الأولية والوثائق الهندسية.",
+        "group": 0,
+        "image": "/assets/careers-mechanical-v29.jpg",
+        "imageNote": "رسم توضيحي للتصميم ثلاثي الأبعاد والنماذج الأولية باستخدام SOLIDWORKS"
+      },
+      {
+        "id": "metrology",
+        "name": "مهندس قياس واختبار",
+        "experience": "خبرة في القياس أو المعايرة أو اختبار الأجهزة.",
+        "qualification": "علم القياس ونتائج القياس وعدم اليقين وإجراءات الاختبار.",
+        "group": 1,
+        "image": "/assets/production-mks.jpg"
+      },
+      {
+        "id": "assembly",
+        "name": "متخصص تجميع وضبط",
+        "experience": "خبرة في تجميع وضبط المنتجات الإلكترونية.",
+        "qualification": "اللحام وقراءة المخططات وأجهزة القياس ومراقبة الجودة.",
+        "group": 1,
+        "image": "/assets/production-workshop.jpeg"
+      },
+      {
+        "id": "service",
+        "name": "مهندس خدمة",
+        "experience": "خبرة في التشخيص والإصلاح وتشغيل المعدات.",
+        "qualification": "كشف الأعطال وضبط الأجهزة والتوثيق ودعم العملاء.",
+        "group": 1,
+        "image": "/assets/company-7-4.jpeg"
+      },
+      {
+        "id": "marketing",
+        "name": "متخصص تسويق ومبيعات تقنية",
+        "experience": "خبرة مع العملاء الصناعيين والمنتجات التقنية.",
+        "qualification": "اتصالات الأعمال والعروض التقنية والمشتريات ووثائق المناقصات.",
+        "group": 2,
+        "image": "/assets/company-1-3.jpeg"
+      }
+    ],
+    "illustrationNote": "رسم توضيحي لمحطة تطوير STM32"
+  },
+  "zh": {
+    "button": "Positron 工作机会",
+    "menu": [
+      "专业人员方向",
+      "经验与资质",
+      "提交申请和简历"
+    ],
+    "title": "加入 Positron",
+    "intro": "我们接受辐射监测设备研发、生产和服务领域的简历。公司在审核申请时确认实际招聘需求与工作条件。",
+    "status": "简历投递方向 — 是否有空缺需确认",
+    "search": "按专业和技能搜索",
+    "category": "领域",
+    "all": "所有领域",
+    "groups": [
+      "研发",
+      "生产与服务",
+      "客户工作"
+    ],
+    "count": "方向数量",
+    "empty": "没有匹配结果。可提交主动求职申请。",
+    "experienceLabel": "经验",
+    "qualificationLabel": "资质",
+    "apply": "申请",
+    "requirementsTitle": "经验与资质",
+    "requirements": "请介绍教育背景、相关经验、技术能力和项目。以下方向说明相关能力；年限、工作时间、薪酬与聘用条件由公司确认。",
+    "formTitle": "求职申请与简历",
+    "formIntro": "申请与 PDF 简历将保存供公司员工审核。简历不会公开发布。",
+    "fields": [
+      "姓名",
+      "Email",
+      "电话",
+      "专业方向",
+      "工作经验",
+      "教育与资质",
+      "申请留言",
+      "PDF 简历不超过 2 MB"
+    ],
+    "general": "主动求职申请",
+    "consent": "我同意为审核求职申请而处理这些信息和简历。",
+    "send": "提交申请和简历",
+    "sending": "正在保存申请…",
+    "success": "申请与简历已保存。编号",
+    "error": "未确认保存成功。请检查字段并重试。",
+    "fileError": "请选择不超过 2 MB 的 PDF 简历。",
+    "rate": "提交次数过多，请稍后重试。",
+    "privacy": "简历处理或删除问题请联系：info@positron.dp.ua。",
+    "themeLight": "浅色背景",
+    "themeDark": "深色背景",
+    "back": "公司网站",
+    "roles": [
+      {
+        "id": "electronics",
+        "name": "电子工程师",
+        "experience": "具有 Altium Designer 使用经验：PCB 布局与布线、编制规格清单和技术文档。",
+        "qualification": "Altium Designer、原理图设计与 PCB 布线、元件库、物料清单（BOM）、制造文件和技术文档。",
+        "group": 0,
+        "image": "/assets/careers-electronics-v29.jpg",
+        "imageNote": "Altium Designer PCB 设计概念插图"
+      },
+      {
+        "id": "firmware",
+        "name": "使用 ChatGPT / Codex 的 STM32 嵌入式固件开发人员",
+        "experience": "使用 ChatGPT / Codex 为基于 ARM Cortex-M 内核的 STM32 微控制器系列开发嵌入式固件（Embedded Firmware）。",
+        "qualification": "C/C++、STM32、ARM Cortex-M、SWD/SWO 与跟踪；使用 Python 实现测试自动化；审核和调试由 ChatGPT / Codex 辅助生成的代码。",
+        "group": 0,
+        "image": "/assets/careers-firmware-v28.jpg",
+        "imageNote": "STM32 开发工作台概念插图"
+      },
+      {
+        "id": "mechanical",
+        "name": "机械设计工程师",
+        "experience": "具有 SOLIDWORKS 使用经验：机械结构设计、三维建模和 3D 打印机操作。",
+        "qualification": "SOLIDWORKS、零件与装配设计、图纸、3D 打印模型准备、原型制作和设计文档。",
+        "group": 0,
+        "image": "/assets/careers-mechanical-v29.jpg",
+        "imageNote": "SOLIDWORKS 三维设计与原型制作概念插图"
+      },
+      {
+        "id": "metrology",
+        "name": "计量与测试工程师",
+        "experience": "具有测量、校准或仪器测试经验。",
+        "qualification": "计量、测量结果、不确定度和测试方法。",
+        "group": 1,
+        "image": "/assets/production-mks.jpg"
+      },
+      {
+        "id": "assembly",
+        "name": "装配与调试人员",
+        "experience": "具有电子产品装配和调试经验。",
+        "qualification": "焊接、读图、测量设备和质量控制。",
+        "group": 1,
+        "image": "/assets/production-workshop.jpeg"
+      },
+      {
+        "id": "service",
+        "name": "服务工程师",
+        "experience": "具有设备诊断、维修和调试经验。",
+        "qualification": "故障排查、仪器设置、文档和客户支持。",
+        "group": 1,
+        "image": "/assets/company-7-4.jpeg"
+      },
+      {
+        "id": "marketing",
+        "name": "市场与技术销售人员",
+        "experience": "具有工业客户和技术产品工作经验。",
+        "qualification": "B2B 沟通、技术方案、采购和招标文件。",
+        "group": 2,
+        "image": "/assets/company-1-3.jpeg"
+      }
+    ],
+    "illustrationNote": "STM32 开发工作台概念插图"
+  }
+}
